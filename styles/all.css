@@ -1,0 +1,40 @@
+html {
+    margin: 0; 
+}
+
+body {
+    margin: 0; 
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a5cbf0 ;
+  }
+
+  .active {
+    background-color: #1348ab;
+    color: white; 
+  }
+
+  li {
+    display: inline-block;
+    height: 40px; 
+    padding-top: 15px; 
+  }
+
+  li a {
+    color: white;
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+  }
+  
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
