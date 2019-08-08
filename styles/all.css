@@ -1,40 +1,88 @@
 html {
-    margin: 0; 
+  margin: 0; 
 }
 
 body {
-    margin: 0; 
-    font-family: 'Chelsea Market', cursive;
+  margin: 0; 
+  font-family: 'Chelsea Market', cursive;
+  background-color:#c7e6ed; 
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #a5cbf0 ;
-  }
+  list-style-type: none;
+  text-align: center; 
+  margin: 0;
+  margin-left: 0%;
+  margin-top: 2%; 
+  overflow: hidden;
+  background-color:#1b1b61 ;
+  color: white; 
+}
 
-  .active {
-    background-color: #1348ab;
-    color: white; 
-  }
+.active {
+  background-color: white;
+  color: #1b1b61; 
+}
 
-  li {
-    display: inline-block;
-    height: 40px; 
-    padding-top: 15px; 
-  }
+li {
+  display: inline-block;
+  height: 40px;  
+  padding-top: 15px; 
+}
 
-  li a {
-    color: white;
-    text-align: center;
-    padding: 26px;
-    text-decoration: none;
-  }
-  
+li a {
+  color: white;
+  text-align: center;
+  padding: 26px;
+  text-decoration: none;
+}
+
 .logo {
+  display: block; 
+  max-width: 19%;
+  height: auto; 
+  margin: auto; 
+  margin-left: 2%; 
+  margin-right: 2%;
+  margin-top: 1.5%; 
+  border: 20px solid #1b1b61; 
+  border-radius: 18px; 
+}
+
+.title {
+  font-size: 60px; 
   display: block;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
+  margin-top: 3%; 
+}
+
+.title2 {
+  font-size: 32px; 
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.sidebyside{
+  display: flex;
+  flex-direction: row;
+}
+
+.stack {
+  display: flex; 
+  flex-direction: column; 
+}
+
+p {
+  margin: 7%; 
+  margin-top: 3%;
+  padding: 3%; 
+  background-color: white; 
+  border: #1b1b61; 
+  border-radius: 18px; 
+}
+
+h2{
+  margin-left: 5%; 
 }
