@@ -24,10 +24,31 @@ ul {
   color: #1b1b61; 
 }
 
-li {
+ul li {
   display: inline-block;
   height: 40px;  
   padding-top: 15px; 
+}
+ 
+ol {
+  background-color: white;
+  border-radius: 18px; 
+  margin-left: 5%;
+  margin-right: 5%; 
+  margin-top: 2%; 
+  margin-bottom: 2%;  
+  padding: 2%; 
+}
+
+.illness{
+  color: blue; 
+  text-decoration: underline; 
+}
+
+ol li {
+  font-family: serif; 
+  padding: 0.4%; 
+  margin-left: 2%; 
 }
 
 li a {
@@ -35,6 +56,15 @@ li a {
   text-align: center;
   padding: 26px;
   text-decoration: none;
+}
+
+.illness li {
+  color:black; 
+}
+
+.illnesses {
+  color: black; 
+  background-color: white; 
 }
 
 .logo {
@@ -84,6 +114,7 @@ li a {
   flex-direction: row; 
   margin-left: 10%;
   margin-right: 10%; 
+  font-family: serif; 
 }
 
 .chart_wrap {
@@ -121,8 +152,11 @@ h2 {
 h3{
   margin-left: 5%; 
 }
-
+h4{
+  margin-left: 5%; 
+}
 .header_h4 {
+  font-family: serif; 
   margin-left: 5%; 
 }
 
@@ -130,7 +164,6 @@ h3{
 li:hover {
   cursor: pointer;
 }
-
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -253,7 +286,7 @@ li:hover {
 }
 
 .innernav{
-  margin-left: 25%; 
+  margin-left: 22%; 
 }
 
 span {
