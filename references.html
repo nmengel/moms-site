@@ -6,60 +6,23 @@
     
     <link rel="stylesheet" type="text/css" href="../styles/all.css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap" rel="stylesheet">
+    
+    
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+
+<script> 
+    $(function(){
+        $("#header").load("header.html"); 
+    });
+</script> 
+
 </head>
 <body>
-
-        <script> function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }</script>
-            
-            <div class="sidebyside">
-                <img src="../images/ppplogo.jpg" class="logo" alt="Logo">
-                <div class="stack">
-                    <div class="title"> Professional Park Pediatrics </div>
-                    <div class="title2"> 1881 Professional Park Circle, Suite 80, Tallahassee, FL 32308 </div>
-                    <div class="title2"> (850) 402-5454 </div>
-                </div>
-            </div>
-            
-            
-            <div class="topnav" id="myTopnav">
-                
-                       
-        <div class="innernav">
-                <a href="index.html">Home</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                <div class="dropdown">
-                    <a href="about.html">About Us</a>
-                    <div class="dropdown-content">
-                        <a href="about.html#hist">Our History</a>
-                        <a href="about.html#prov">Our Providers</a>
-                        <a href="about.html#staff">Office Staff</a>
-                    </div>
-                </div>
-                <a href="forms.html">Forms</a>
-                <div class="dropdown">
-                    <a href="medical.html">Medical Info</a>
-                    <div class="dropdown-content">
-                        <a href="medical.html#newb">Newborns</a>
-                        <a href="medical.html#well">Well Visits</a>
-                        <a href="medical.html#imm">Immunizations</a>
-                        <a href="medical.html#ill">Childhood Illnesses</a>
-                        <a href="medical.html#hosp">Hospital Visits</a>
-                        <a href="medical.html#dose">Dosage Charts</a>
-                       
-                </div>
-                </div>
-                
-                <a href="contact.html">Contact Us</a>
-                <a href="references.html">References</a>
-            </div>
-        </div>
+<div id="header"></div>
     <p> 
     Take a look at the links below for further information. 
     <br/>

@@ -8,7 +8,7 @@ body {
   background-color:#c7e6ed; 
 }
 
-ul {
+ul .nav{
   list-style-type: none;
   text-align: center; 
   margin: 0;
@@ -24,7 +24,7 @@ ul {
   color: #1b1b61; 
 }
 
-ul li {
+ul li .navli {
   display: inline-block;
   height: 40px;  
   padding-top: 15px; 
@@ -47,7 +47,7 @@ ol {
 
 ol li {
   font-family: serif; 
-  padding: 0.4%; 
+  padding: 1%; 
   margin-left: 2%; 
 }
 
@@ -99,6 +99,12 @@ li a {
   flex-direction: row;
 }
 
+.sidebyside2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .stack {
   display: flex; 
   flex-direction: column; 
@@ -121,12 +127,19 @@ li a {
 background-color: white; 
 border-radius: 18px; 
 margin: 5%; 
-margin-bottom: 20%; 
 padding-top: 2%;
 margin-top: 0%; 
 margin-bottom: 1%; 
 padding-bottom: 4%;  
+}
 
+.chart_wrap2{
+  background-color: white; 
+border-radius: 18px; 
+margin: 5%; 
+margin-bottom: 1%; 
+padding-top: 1%; 
+padding-bottom: 1%; 
 }
 
 p {
@@ -138,6 +151,12 @@ p {
   border-radius: 18px; 
   font-size: 16px; 
   font-family: serif; 
+}
+
+.minim {
+  margin: 1%;
+  padding: 0; 
+  border-radius: 18px; 
 }
 
 .purpose {
@@ -165,7 +184,7 @@ li:hover {
   cursor: pointer;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
   background-color: #1b1b61;
   overflow: hidden;
@@ -286,7 +305,7 @@ li:hover {
 }
 
 .innernav{
-  margin-left: 22%; 
+  margin-left: 15%; 
 }
 
 span {
@@ -294,4 +313,13 @@ span {
   border: solid 1px; 
   padding: 10px; 
   padding-right: 50px; 
+}
+
+img {
+  max-width: 25%; 
+  border-radius: 50%; 
+  margin: 5%; 
+  margin-left: 7%;
+  margin-right: 7%;  
+  
 }
