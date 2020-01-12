@@ -2,10 +2,12 @@ html {
   margin: 0; 
 }
 
+
+
 body {
   margin: 0; 
-  font-family: 'Chelsea Market', cursive;
-  background-color:#c7e6ed; 
+  /* font-family: 'Chelsea Market', cursive; */
+  font-family: sans-serif; 
 }
 
 ul .nav{
@@ -46,7 +48,6 @@ ol {
 }
 
 ol li {
-  font-family: serif; 
   padding: 1%; 
   margin-left: 2%; 
 }
@@ -72,11 +73,11 @@ li a {
   max-width: 19%;
   height: auto; 
   margin: auto; 
-  margin-left: 2%; 
+  margin-left: 3%; 
   margin-right: 2%;
-  margin-top: 1.5%; 
-  border: 20px solid #1b1b61; 
-  border-radius: 18px; 
+  margin-top: 2%; 
+  border: 4px solid black; 
+  border-radius: 0px; 
 }
 
 .title {
@@ -97,6 +98,9 @@ li a {
 .sidebyside{
   display: flex;
   flex-direction: row;
+  background-color:#c7e6ed; 
+  padding-bottom: 2%; 
+  padding-top: 2%;
 }
 
 .sidebyside2{
@@ -120,7 +124,7 @@ li a {
   flex-direction: row; 
   margin-left: 10%;
   margin-right: 10%; 
-  font-family: serif; 
+   
 }
 
 .chart_wrap {
@@ -146,11 +150,9 @@ p {
   margin: 5%; 
   margin-top: 3%;
   padding: 3%; 
-  background-color: white; 
-  border: #1b1b61; 
-  border-radius: 18px; 
+  background-color: white;  
   font-size: 16px; 
-  font-family: serif; 
+ 
 }
 
 .minim {
@@ -175,7 +177,6 @@ h4{
   margin-left: 5%; 
 }
 .header_h4 {
-  font-family: serif; 
   margin-left: 5%; 
 }
 
@@ -188,8 +189,13 @@ li:hover {
 .topnav {
   background-color: #1b1b61;
   overflow: hidden;
-  padding: 0.5%; 
-  margin-top: 1%; 
+  padding: 1%; 
+  margin-top: 0%; 
+  border: 3px black solid; 
+  border-left-style: hidden;
+  border-right-style: hidden; 
+
+ 
 }
 
 /* Style the links inside the navigation bar */
@@ -199,8 +205,8 @@ li:hover {
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
-  padding: 14px; 
+  font-size: 130%;
+  padding: 16px; 
 }
 
 /* Add an active class to highlight the current page */
@@ -305,7 +311,7 @@ li:hover {
 }
 
 .innernav{
-  margin-left: 25%; 
+  margin-left: 24%; 
 }
 
 span {
