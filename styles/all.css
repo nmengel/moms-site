@@ -322,12 +322,17 @@ span {
 }
 
 img {
-  max-width: 25%; 
-  border-radius: 50%; 
-  margin: 5%; 
-  margin-left: 7%;
-  margin-right: 7%;  
+  max-width: 25%;  
+  margin-left: 8%;
+  margin-right: 8%;  
   
+}
+
+.bio {
+  margin: 0px; 
+  margin-left: 7%; 
+  width: 30%; 
+  height: 1%; 
 }
 
 button {
