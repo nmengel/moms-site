@@ -2,12 +2,11 @@ html {
   margin: 0; 
 }
 
-
-
 body {
   margin: 0; 
   /* font-family: 'Chelsea Market', cursive; */
   font-family: sans-serif; 
+  overflow-x:hidden; 
 }
 
 ul .nav{
@@ -109,6 +108,15 @@ li a {
   justify-content: center;
 }
 
+
+.sidebyside3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-bottom: 4%; 
+  padding-top: 2%; */
+}
+
 .stack {
   display: flex; 
   flex-direction: column; 
@@ -138,8 +146,9 @@ padding-bottom: 4%;
 }
 
 .chart_wrap2{
-  background-color: white; 
-border-radius: 18px; 
+background-color: white; 
+border:  2px solid #c7e6ed; 
+
 margin: 5%; 
 margin-bottom: 1%; 
 padding-top: 1%; 
@@ -162,7 +171,8 @@ p {
 }
 
 .purpose {
-  font-size: 24px;
+  font-size: 34px;
+  margin: 2%; 
  
 }
 
@@ -242,7 +252,7 @@ li:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 39%; 
+  top: 43%; 
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -322,26 +332,58 @@ span {
 }
 
 img {
-  max-width: 25%;  
-  margin-left: 8%;
-  margin-right: 8%;  
-  
+  max-height: 400px; 
+  margin-left: auto; 
+  margin-right: auto;   
+  /* justify-content: center;  */
+}
+
+.purpose2 {
+  font-size: 25px; 
 }
 
 .bio {
-  margin: 0px; 
-  margin-left: 7%; 
-  width: 30%; 
-  height: 1%; 
+  /* margin: 0px;  */
+  margin-top: -3px; 
+  line-height: 25px; 
+  margin-left: 5%; 
+  width: 100%; 
+  padding: 0px; 
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; 
+  /* float: left;  */
+  /* width: 300px; */
+  margin: 1.5%;  
+  margin-left: 4%; 
+  margin-right: 4%;  
+  padding: 3%; 
+  /*padding-bottom: 3%; 
+  padding-top: 3%;  */
+  /* margin: 2%;  */
+  border: 2px solid #c7e6ed; 
 }
 
 button {
-  background-color: #1b1b61;
-  color: white; 
-  font-family: 'Chelsea Market', cursive; 
-  border-radius: 5%; 
-  font-size: 100%;  
-  padding: 15%; 
- margin: 20px; 
-
+  width: 250px;
+  height: 250px; 
+  margin: 2.4%;   
+  margin-bottom: 10%; 
+  background-color: white; 
+  border: 5px solid #c7e6ed; 
+  border-radius: 8%; 
+  font-size: 20px; 
 }
+
+
+button img {
+max-width:  50%;
+max-height: 50%;   
+ } 
+
+ #guidebutt {
+   margin-left: 5%; 
+ }
