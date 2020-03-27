@@ -392,6 +392,7 @@ button {
 button img {
 max-width:  60%;
 max-height: 60%;   
+cursor: pointer; 
  } 
 
   
@@ -419,6 +420,6 @@ max-height: 60%;
   flex-direction: row; 
   margin-left: 2%;
   margin-right: 2%; 
-  margin-bottom: 10%; 
+  margin-bottom: 7%; 
   justify-content: space-evenly; 
 }
