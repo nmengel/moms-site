@@ -380,7 +380,7 @@ img {
 }
 
 button {
-  padding: 4% 0% 4% 0%; 
+  padding: 10% 0% 10% 0%; 
   background-color: white; 
   margin: 6%; 
   border: 5px solid #c7e6ed; 
@@ -390,8 +390,8 @@ button {
 
 
 button img {
-max-width:  60%;
-max-height: 60%;   
+max-width:  50%;
+max-height: 30%;   
 cursor: pointer; 
  } 
 
@@ -410,16 +410,25 @@ cursor: pointer;
 .button_holder {
   display: flex; 
   flex-direction: row; 
-  margin-left: 2%;
-  margin-right: 2%; 
-  justify-content: space-evenly; 
+  margin-left: 20%;
+  margin-right: 20%; 
+  justify-content: center; 
 }
 
 .button_holder2 {
   display: flex; 
   flex-direction: row; 
-  margin-left: 2%;
-  margin-right: 2%; 
+  margin-left: 20%;
+  margin-right: 20%; 
   margin-bottom: 7%; 
-  justify-content: space-evenly; 
+  justify-content: center; 
+}
+
+.button_holder3 {
+  display: flex;  
+  flex-direction: row; 
+  margin-bottom: 7%; 
+  margin-left: 10%;
+  margin-right: 10%; 
+  justify-content: center; 
 }
