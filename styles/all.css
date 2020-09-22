@@ -43,11 +43,11 @@ ul li {
 ol {
   background-color: white;
   border-radius: 18px; 
-  margin-left: 5%;
+  /* margin-left: 5%;
   margin-right: 5%; 
   margin-top: 2%; 
-  margin-bottom: 2%;  
-  padding: 2%; 
+  margin-bottom: 2%;   */
+  /* padding: 2%;  */
 }
 
 .illness{
@@ -170,7 +170,6 @@ p {
   padding: 3%; 
   background-color: white;  
   font-size: 16px; 
- 
 }
 
 .minim {
@@ -181,7 +180,9 @@ p {
 
 .purpose {
   font-size: 34px;
-  margin: 2%; 
+  margin: 3%; 
+  margin-left: 12%; 
+  padding: 0; 
  
 }
 
@@ -332,7 +333,7 @@ li:hover {
 }
 
 .innernav{
-  margin-left: 24%; 
+  margin-left: 23.5%; 
 }
 
 span {
@@ -410,8 +411,8 @@ cursor: pointer;
 .button_holder {
   display: flex; 
   flex-direction: row; 
-  margin-left: 20%;
-  margin-right: 20%; 
+  /* margin-left: 20%;
+  margin-right: 20%;  */
   justify-content: center; 
 }
 
