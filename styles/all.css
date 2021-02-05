@@ -79,6 +79,7 @@ li a {
 
 .title {
   font-size: 3.75rem; 
+  font-weight: bold;
   display: block;
   margin-left: 0;
   margin-right: auto;
@@ -270,10 +271,6 @@ li:hover {
     float: right;
     display: block;
   }
-
-  .title {
-    font-size: 3.25rem; 
-  }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -296,6 +293,21 @@ li:hover {
     width: 100%;
     text-align: left;
   }
+}
+
+@media screen and (max-width: 1000px) {
+.title {
+  font-size: 2.5rem;  
+}
+
+.title2 {
+  font-size: 1.5rem;  
+}
+
+.sidebyside {
+  padding-top: 3rem;
+  padding-bottom: 2rem; 
+}
 }
 
 .innernav{
