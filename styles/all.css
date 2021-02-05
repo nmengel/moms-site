@@ -82,6 +82,7 @@ li a {
   display: block;
   margin-left: 0;
   margin-right: auto;
+
 }
 
 .title2 {
@@ -110,7 +111,6 @@ li a {
   flex-direction: column; 
   align-items: center;
 }
-
 
 .sidebyside{
   display: flex;
@@ -269,6 +269,10 @@ li:hover {
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  .title {
+    font-size: 3.25rem; 
   }
 }
 
