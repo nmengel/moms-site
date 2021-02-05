@@ -4,9 +4,16 @@ html {
 
 body {
   margin: 0; 
-  /* font-family: 'Chelsea Market', cursive; */
   font-family: sans-serif; 
   overflow-x:hidden; 
+}
+
+.mainWrapper {
+  margin: 5%; 
+  padding: 2%; 
+  border:  2px solid #c7e6ed; 
+  padding-top: 1%; 
+  margin-top: 1%; 
 }
 
 ul .nav{
@@ -43,11 +50,6 @@ ul li {
 ol {
   background-color: white;
   border-radius: 18px; 
-  /* margin-left: 5%;
-  margin-right: 5%; 
-  margin-top: 2%; 
-  margin-bottom: 2%;   */
-  /* padding: 2%;  */
 }
 
 .illness{
@@ -56,8 +58,7 @@ ol {
 }
 
 ol li {
-  padding: 1%; 
-  margin-left: 2%; 
+  font-weight: bold;
 }
 
 li a {
@@ -103,6 +104,27 @@ li a {
   margin-right: auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row2{
+  display: flex;
+  /* padding: 50px;  */
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  align-items: center;
+}
+
+
 .sidebyside{
   display: flex;
   flex-direction: row;
@@ -111,72 +133,13 @@ li a {
   padding-top: 2%;
 }
 
-.sidebyside2{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-
-.sidebyside3{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* padding-bottom: 4%; 
-  padding-top: 2%; */
-}
-
-.stack {
-  display: flex; 
-  flex-direction: column; 
-}
-
-.column {
-  display: flex;
-  flex-direction: column; 
-}
-
-.chart_box {
-  display: flex; 
-  flex-direction: row; 
-  margin-left: 10%;
-  margin-right: 10%; 
-   
-}
-
-.chart_wrap {
-background-color: white; 
-border-radius: 18px; 
-margin: 5%; 
-padding-top: 2%;
-margin-top: 0%; 
-margin-bottom: 1%; 
-padding-bottom: 4%;  
-}
-
-.chart_wrap2{
-background-color: white; 
-border:  2px solid #c7e6ed; 
-
-margin: 5%; 
-margin-bottom: 1%; 
-padding-top: 1%; 
-padding-bottom: 1%; 
-}
-
-p {
+ .purpose2 {
+  font-size: 25px; 
   margin: 5%; 
-  margin-top: 3%;
   padding: 3%; 
-  background-color: white;  
-  font-size: 16px; 
+  margin-top: 0;  
 }
 
-.minim {
-  margin: 1%;
-  padding: 0; 
-  border-radius: 18px; 
-}
 
 .purpose {
   font-size: 34px;
@@ -194,7 +157,7 @@ h2 {
 }
 
 h3{
-  margin-left: 5%; 
+  margin-bottom: 3%; 
 }
 h4{
   margin-left: 5%; 
@@ -343,24 +306,30 @@ span {
   padding-right: 50px; 
 }
 
-img {
-  max-height: 400px; 
-  margin-left: auto; 
-  margin-right: auto;   
-  /* justify-content: center;  */
+.bioimg {
+  max-height: 260px; 
+  padding: 15px;   
 }
 
-.purpose2 {
-  margin-top: 0; 
-  font-size: 25px; 
+img {
+  padding: 15px;
+}
+
+.bioimg:hover { 
+  border: 3px solid #1b1b61; 
+} 
+
+figure {
+  margin: 0;
+  padding: 0; 
+}
+
+figcaption {
+  text-align: center;
 }
 
 .bio {
-  /* margin: 0px;  */
-  margin-top: -3px; 
-  line-height: 25px; 
-  margin-left: 5%; 
-  width: 100%; 
+  width: 75%; 
   padding: 0px; 
   font-size: 18px;
 }
@@ -387,15 +356,8 @@ button {
   border: 5px solid #c7e6ed; 
   border-radius: 8%; 
   font-size: large; 
+  font-family: sans-serif; 
 }
-
-
-button img {
-max-width:  50%;
-max-height: 30%;   
-cursor: pointer; 
- } 
-
   
  footer{
   height: 70px; 
@@ -407,21 +369,18 @@ cursor: pointer;
   border-right-style: hidden; 
  }
 
-
-.button_holder {
-  display: flex; 
-  flex-direction: row; 
-  /* margin-left: 20%;
-  margin-right: 20%;  */
-  justify-content: center; 
-}
+ 
+button img {
+  max-width:  50%;
+  max-height: 30%;   
+  cursor: pointer; 
+   } 
 
 .button_holder2 {
   display: flex; 
   flex-direction: row; 
-  margin-left: 20%;
-  margin-right: 20%; 
-  margin-bottom: 7%; 
+  margin-left: 15%;
+  margin-right: 15%; 
   justify-content: center; 
 }
 
@@ -432,4 +391,17 @@ cursor: pointer;
   margin-left: 10%;
   margin-right: 10%; 
   justify-content: center; 
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px; 
+}
+
+table {
+  margin-left: 5%; 
 }
