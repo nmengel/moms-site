@@ -42,14 +42,6 @@ ul li .navli {
   height: 2.5rem;  
   padding-top: 0.938rem; 
 }
-
-ul {
-  list-style-type: none; 
-}
-
-ul li {
-  font-size: 1.5rem; 
-}
  
 ol {
   background-color: white;
@@ -65,12 +57,6 @@ ol li {
   font-weight: bold;
 }
 
-li a {
-  color: white;
-  text-align: center;
-  padding: 1.625rem;
-  text-decoration: none;
-}
 
 .illness li {
   color:black; 
@@ -303,10 +289,6 @@ li:hover {
   }
 }
 
-@media screen and (max-width: 1000px) {
-.title {
-  font-size: 2.5rem;  
-}
 
 .title2 {
   font-size: 1.5rem;  
@@ -316,7 +298,7 @@ li:hover {
   padding-top: 3rem;
   padding-bottom: 2rem; 
 }
-}
+
 
 .innernav{
   margin-left: 24%; 
@@ -431,3 +413,28 @@ th, td {
 table {
   margin-left: 5%; 
 }
+
+ul li{
+  font-size: 1rem; 
+}
+/* 
+.back {
+  padding: 1%; 
+  margin: 2%; 
+  margin-left:5%; 
+  border: 0.313rem solid #c7e6ed; 
+  border-radius: 8%; 
+  font-size: 1rem; 
+}
+  */
+
+  @media screen and (max-width: 1000px) {
+    .title {
+      font-size: 2.5rem;  
+    }
+  }
+    
+  @media screen and (max-width: 700px) {
+      .mainWrapper {
+        font-size: 1.5rem;  
+    }

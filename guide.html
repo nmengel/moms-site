@@ -1,110 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Professional Park Pediatrics - Home</title>
-    
+
     <link rel="stylesheet" type="text/css" href="../styles/all.css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap" rel="stylesheet">
-    
-    
-<script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-</script>
 
-<script> 
-    $(function(){
-        $("#header").load("header.html"); 
-    });
-</script> 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+        });
+    </script>
 
 </head>
 <div id="header"></div>
+
 <body>
 
-<h2>Practice Guide</h2> 
-<br/>
-<div class="mainWrapper">
+    <h2>Practice Guide</h2>
+    <br />
+    <div class="mainWrapper">
 
-<h3 class="top">Appointments</h3>
-<p>
-        Well baby and well child visits need to be scheduled in advance. 
-        It is not uncommon for us to schedule a month or more ahead of time 
-        in order to allow ample time for visits for sick children. There may
-         be occasions in the office where an emergency will dictate that we see
-          individuals out of turn. We do our best to see your child as promptly 
-          as possible. We ask that you not to come to the office without calling
-           for an appointment first, as this frequently results in a long delay 
-           or even an unnecessary visit. If you are not sure if your child needs 
-           to be seen, do call and ask our opinion and advice. 
-<br/>
-<br/>
-If you think your child needs to be seen, please call early in the day to allow you the earliest possible appointment. 
-        If you are unable to make a scheduled appointment, please call 
-        and cancel or reschedule so your appointment slot can be offered
-         to another patient. If you are more than 10 minutes late for your
-          scheduled appointment, you will likely be asked to reschedule the
-           appointment for another time. 
-        
-        
-</p>
-<h3>Telephone Calls</h3>
-<p> During office hours, our staff, who have been trained by us and have ready access to us, answer almost all of our telephone
-     calls to attempt to keep our office flow smooth and avoid waits. They will consult us immediately for emergencies and difficult problems. Routine questions should be asked in the morning during regular office hours. 
-     
-     <br/>
-     <br/>
-     After hours, on-call staff will return calls each hour 
-     as we retrieve messages from our answering machine. You can contact the on-call person by calling our regular office number 
-     (850-402-5454). There is also a cell phone number which can be used to contact the night staff if your child has a problem which 
-     cannot wait one hour; call the regular office number to get the appropriate cell number at that time. 
-     
-     <br/>
-     <br/>
-     This night number is for use in urgent situations, not simply for convenience. If you have not been contacted by our staff within one hour of leaving the message, please call back and leave another message. Be sure to leave your name and correct phone number in the message. </p>
+        <ul>
+            <li><a href="#appt">Appointments</a></li>
+            <li><a href="#calls">Telephone Calls</a></li>
+            <li><a href="#refill">Prescription Refills</a></li>
+            <li><a href="#emergencies">Emergencies</a></li>
+            <li><a href="#after">After-Hours Visits</a></li>
+            <li><a href="#hosp">Hospital Care</a></li>
+            <li><a href="#office">Office Visits</a></li>
+        </ul>
 
-     <h3>Prescription Refills</h3>
-     <p>Please call our office during regular hours if medication refills are needed. We need notice of 3 working days to provide ADHD medications requiring monthly refills.</p>
-     <h3>Emergencies</h3>
-<p>A physician is available at all times for emergency medical situations. We can be reached by calling our office number, including after hours. Many times what is frightening to parents may not be alarming to us. Part of our function as your pediatricians is to avoid unnecessary visits and worry. In order to prevent unnecessary visits to the emergency room, we ask that you DO NOT GO TO THE EMERGENCY ROOM WITHOUT TALKING TO US FIRST unless is it a true emergency. Examples include a child who is not breathing or who is turning blue, is having a seizure that has lasted longer than 5 minutes, has ingested a corrosive or toxic substance, has bleeding that is bright red and is spurting, or is unconscious and cannot be aroused. There are other circumstances not listed, but common sense should prevail. </p>
-<h3>After-Hours Visits</h3>
-<p>There will be occasions when it will be necessary for your child to be seen after hours.
-     If your health insurance is Capital Health Plan, you can be seen after hours at the 
-     CHP Urgent Care clinic. If you have other private insurance, 
-     your plan may or may not cover visits to acute care clinics. Depending on your insurance 
-     and what time of night it is, your main option may be the emergency room. Please call 
-     the on-call staff before going to an after-hours clinic or the ER; in many cases, we 
-     can give you advice which will enable you to manage the problem at home until regular
-      office hours. If you do have to go to the emergency room, we generally recommend 
-      using Tallahassee Memorial Hospital. </p>
+        <h3 class="top" id="appt">Appointments</h3>
+        <p>
+            Well baby and well child visits need to be scheduled in advance.
+            It is not uncommon for us to schedule a month or more ahead of time
+            in order to allow ample time for visits for sick children. There may
+            be occasions in the office where an emergency will dictate that we see
+            individuals out of turn. We do our best to see your child as promptly
+            as possible. We ask that you not to come to the office without calling
+            for an appointment first, as this frequently results in a long delay
+            or even an unnecessary visit. If you are not sure if your child needs
+            to be seen, do call and ask our opinion and advice.
+            <br />
+            <br />
+            If you think your child needs to be seen, please call early in the day to allow you the earliest possible
+            appointment.
+            If you are unable to make a scheduled appointment, please call
+            and cancel or reschedule so your appointment slot can be offered
+            to another patient. If you are more than 10 minutes late for your
+            scheduled appointment, you will likely be asked to reschedule the
+            appointment for another time.
 
-<h3>Hospital Care</h3>
-    <ol>
-    <li>Newborns</li>
-    <p> Newborn babies whose parents have chosen our group are checked in hospital by one of our pediatricians 
-        each morrning. We talk to the parents, and check
-       the baby until you are discharged. We see newborns at TMH and CRMC. We will make a follow-up appointment by day 5 of life.  </p>
-    <li>Sick Patients</li>
-    <p>Sick children needing hospitalization following an office or ER visit 
-            are attended to by our pediatricians in hospital. We admit patients to Tallahassee Memorial Hospital.</p>
-    </ol>
-<h3>Office Visits</h3>
-    <ol>
-    <li>Well-Child Visits</li>
-    <p> There are multiple well-child visits during the first two years of life. We start with an initial newborn visit, followed by 1, 2, 4, 6, 9, and 12 month visits in the first year. In the second year, we have 15, 18, and 24 month visits. You can expect yearly visits afterwards. Many of the early well visits will have immunizations included. 
-        <br/>
-        <br/>
-        Check out the handout linked <a href="/pdfs/well_child.pdf" target="_blank">here</a> for more information on what you should expect from well-child visits. </p>
-    <li>Weight Checks</li>
-        <p>Weight checks for infants and children are done on a walk-in basis, and do not require appointments. Nurses are most available for weight check walk-ins from 9-10:30AM or 2-3:30PM. </p>
-        <li>Sick Patients</li> 
-        <p> If your child needs to be seen for an acute illness, same day or next day appointments are available. Lengthier consultations for concerns about ongoing issues will be scheduled as soon as possible. </p>
-        <li>Sports Physicals</li>
-    <p>Sports physicals can be done during regular check-up visits. They can also be schduled as needed. </p>
-    <li>Developmental/Behavioral Health Appointments</li>
-    <p>Please indicate your specific health concerns when making your appointment, so we can give you ample time to address these concerns during your appointment. Follow-ups will be scheduled accordingly.</p>
-    </ol>
 
-</div>
+        </p>
+        <h3 id="calls">Telephone Calls</h3>
+        <p> During office hours, our staff, who have been trained by us and have ready access to us, answer almost all
+            of our telephone
+            calls to attempt to keep our office flow smooth and avoid waits. They will consult us immediately for
+            emergencies and difficult problems. Routine questions should be asked in the morning during regular office
+            hours.
+
+            <br />
+            <br />
+            After hours, on-call staff will return calls each hour
+            as we retrieve messages from our answering machine. You can contact the on-call person by calling our
+            regular office number
+            (850-402-5454). There is also a cell phone number which can be used to contact the night staff if your child
+            has a problem which
+            cannot wait one hour; call the regular office number to get the appropriate cell number at that time.
+
+            <br />
+            <br />
+            This night number is for use in urgent situations, not simply for convenience. If you have not been
+            contacted by our staff within one hour of leaving the message, please call back and leave another message.
+            Be sure to leave your name and correct phone number in the message.
+        </p>
+
+        <h3 id="refill">Prescription Refills</h3>
+        <p>Please call our office during regular hours if medication refills are needed. We need notice of 3 working
+            days to provide ADHD medications requiring monthly refills.</p>
+        <h3 id="emergencies">Emergencies</h3>
+        <p>A physician is available at all times for emergency medical situations. We can be reached by calling our
+            office number, including after hours. Many times what is frightening to parents may not be alarming to us.
+            Part of our function as your pediatricians is to avoid unnecessary visits and worry. In order to prevent
+            unnecessary visits to the emergency room, we ask that you DO NOT GO TO THE EMERGENCY ROOM WITHOUT TALKING TO
+            US FIRST unless is it a true emergency. Examples include a child who is not breathing or who is turning
+            blue, is having a seizure that has lasted longer than 5 minutes, has ingested a corrosive or toxic
+            substance, has bleeding that is bright red and is spurting, or is unconscious and cannot be aroused. There
+            are other circumstances not listed, but common sense should prevail. </p>
+
+        <h3 id="after">After-Hours Visits</h3>
+        <p>There will be occasions when it will be necessary for your child to be seen after hours.
+            If your health insurance is Capital Health Plan, you can be seen after hours at the
+            CHP Urgent Care clinic. If you have other private insurance,
+            your plan may or may not cover visits to acute care clinics. Depending on your insurance
+            and what time of night it is, your main option may be the emergency room. Please call
+            the on-call staff before going to an after-hours clinic or the ER; in many cases, we
+            can give you advice which will enable you to manage the problem at home until regular
+            office hours. If you do have to go to the emergency room, we generally recommend
+            using Tallahassee Memorial Hospital. </p>
+
+        <h3 id="hosp">Hospital Care</h3>
+        <ol>
+            <li>Newborns</li>
+            <p> Newborn babies whose parents have chosen our group are checked in hospital by one of our pediatricians
+                each morrning. We talk to the parents, and check
+                the baby until you are discharged. We see newborns at TMH and CRMC. We will make a follow-up appointment
+                by day 5 of life. </p>
+            <li>Sick Patients</li>
+            <p>Sick children needing hospitalization following an office or ER visit
+                are attended to by our pediatricians in hospital. We admit patients to Tallahassee Memorial Hospital.
+            </p>
+        </ol>
+        <h3 id="office">Office Visits</h3>
+        <ol>
+            <li>Well-Child Visits</li>
+            <p> There are multiple well-child visits during the first two years of life. We start with an initial
+                newborn visit, followed by 1, 2, 4, 6, 9, and 12 month visits in the first year. In the second year, we
+                have 15, 18, and 24 month visits. You can expect yearly visits afterwards. Many of the early well visits
+                will have immunizations included.
+                <br />
+                <br />
+                Check out the handout linked <a href="/pdfs/well_child.pdf" target="_blank">here</a> for more
+                information on what you should expect from well-child visits.
+            </p>
+            <li>Sick Visits</li>
+            <p> If your child needs to be seen for an acute illness, same day or next day appointments are available.
+                Lengthier consultations for concerns about ongoing issues will be scheduled as soon as possible. </p>
+
+            <li>Developmental/Behavioral Health Appointments</li>
+            <p>Please indicate your specific health concerns when making your appointment, so we can give you ample time
+                to address these concerns during your appointment. Follow-ups will be scheduled accordingly.</p>
+
+            <li>Sports Physicals</li>
+            <p>Sports physicals can be done during regular check-up visits. They can also be schduled as needed. </p>
+            
+            <li>Weight Checks</li>
+            <p>Weight checks for infants and children are done on a walk-in basis, and do not require appointments.
+                Nurses are most available for weight check walk-ins from 9-10:30AM or 2-3:30PM. </p>
+
+
+
+        </ol>
+
+    </div>
