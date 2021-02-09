@@ -443,11 +443,12 @@ ul li{
     
   @media screen and (max-width: 700px) {
       .mainWrapper {
-        font-size: 1.25rem;  
+        font-size: 1.25rem; 
+        overflow-x: hidden;  
       }
+
       .title {
         font-size: 1.25rem;
-
       }
 
       .title2 {
@@ -475,6 +476,13 @@ ul li{
         font-size: .75rem; 
       }
 
+      .topnav a {
+        font-size: .75rem; 
+      }
+
+      .dropdown-content {
+        display: none; 
+      }
     }
 
     @media screen and (max-width: 500px) {
