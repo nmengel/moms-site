@@ -454,8 +454,6 @@ ul li{
         font-size: .75rem;
       }
 
-  
-
       .purpose {
         font-size: 1.25rem; 
       }
@@ -473,9 +471,15 @@ ul li{
         align-items: center;
       }
 
-
       button {
         font-size: .75rem; 
       }
+
+    }
+
+    @media screen and (max-width: 500px) {
+        button {
+          font-size: .6rem; 
+        }
 
     }
