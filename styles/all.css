@@ -476,10 +476,23 @@ ul li{
           font-size: 1.2rem;
         }
 
+        .purpose {
+          font-size: 0.8rem; 
+        }
+  
+
     @media screen and (max-width: 400px) {
       .topnav a {
         font-size: .6rem; 
       }
 
+      @media screen and (max-width: 350px) {
+        .topnav a {
+          padding: 0.3rem; 
+        }
+
+        .title {
+          font-size: 0.9rem;
+        }
 
     }
