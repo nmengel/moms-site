@@ -424,10 +424,6 @@ ul li{
         overflow-x: hidden;  
       }
 
-      .title {
-        font-size: 1.25rem;
-      }
-
       .title2 {
         font-size: .75rem;
       }
@@ -476,9 +472,14 @@ ul li{
           font-size: .6rem; 
         }
 
+        .title {
+          font-size: 1.2rem;
+        }
+
     @media screen and (max-width: 400px) {
       .topnav a {
         font-size: .6rem; 
       }
+
 
     }
