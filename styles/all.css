@@ -121,11 +121,11 @@ ol li {
 .logo {
   display: block; 
   max-width: 20%;
-  height: auto; 
+  /* height: auto;  */
   margin: auto; 
   margin-left: 3%; 
   margin-right: 2%;
-  padding: 0.25rem; 
+  padding: 0.1rem; 
   border: 0.25rem solid black; 
   border-radius: 0px; 
 }
@@ -481,7 +481,7 @@ ul li{
         .purpose {
           font-size: 0.8rem; 
         }
-  
+      }
 
     @media screen and (max-width: 400px) {
       .topnav a {
@@ -492,6 +492,8 @@ ul li{
         height: 90%; 
         width: 90%; 
       }
+    }
+
       @media screen and (max-width: 350px) {
         .topnav a {
           padding: 0.3rem; 
