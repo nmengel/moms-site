@@ -115,8 +115,7 @@ ol li {
   background-color:#c7e6ed; 
   flex-direction: column; 
   align-items: left; 
-  justify-content: center;
-  max-height: 10%; 
+  /* justify-content: center; */
 }
 
 .logo {
@@ -452,7 +451,7 @@ ul li{
       }
 
       button {
-        font-size: .75rem; 
+        font-size: .8rem; 
       }
 
       .topnav a {
@@ -474,12 +473,9 @@ ul li{
     }
 
     @media screen and (max-width: 500px) {
-        button {
-          font-size: .6rem; 
-        }
 
         .title {
-          font-size: 1.2rem;
+          font-size: 1.1rem;
         }
 
         .purpose {
@@ -492,6 +488,10 @@ ul li{
         font-size: .6rem; 
       }
 
+      button {
+        height: 90%; 
+        width: 90%; 
+      }
       @media screen and (max-width: 350px) {
         .topnav a {
           padding: 0.3rem; 
