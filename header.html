@@ -1,49 +1,48 @@
+<script> function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class="stack">
+    <div class="sidebyside">
+        <img src="/images/ppplogo.jpg" class="logo" alt="Logo">
+        <div class="stack">
+            <div class="title"> Professional Park Pediatrics </div>
+            <div class="title2"> 1881 Professional Park Circle, Suite 80, Tallahassee, FL 32308 </div>
+            <div class="title2"> (850) 402-5454, Mon-Fri 8:30am-5pm </div>
+        </div>
+    </div>
+</div>
+<div class="topnav" id="myTopnav">
 
+    <div class="innernav">
+        <a href="index.html">Home</a>
 
-        <script> function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-            </script>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <div class="stack">
-            <div class="sidebyside">
-                <img src="/images/ppplogo.jpg" class="logo" alt="Logo">
-                <div class="stack">
-                    <div class="title"> Professional Park Pediatrics </div>
-                    <div class="title2"> 1881 Professional Park Circle, Suite 80, Tallahassee, FL 32308 </div>
-                    <div class="title2"> (850) 402-5454, Mon-Fri 8:30am-5pm </div>
-                </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+        <div class="dropdown">
+            <a href="about.html">About Us</a>
+        </div>
+        <div class="dropdown">
+            <a href="resources.html">Patient Resources</a>
+            <div class="dropdown-content">
+                <a href="policy.html">Policies</a>
+                <a href="forms.html">Forms</a>
+                <a href="guide.html">Practice Guide</a>
+                <a href="medical.html">Medical Info</a>
+                <a href="online.html">Online Resources</a>
             </div>
         </div>
-            <div class="topnav" id="myTopnav">
-                       
-        <div class="innernav">
-        <a href="index.html">Home</a>  
-
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-
-                <div class="dropdown">
-                    <a href="about.html">About Us</a>
-                </div>
-                <div class="dropdown">
-                <a href="resources.html">Patient Resources</a>
-                <div class="dropdown-content">
-                    <a href="policy.html">Policies</a>
-                    <a href="forms.html">Forms</a>
-                    <a href="guide.html">Practice Guide</a>
-                    <a href="medical.html">Medical Info</a>
-                    <a href="online.html">Online Resources</a>
-                </div>
-            </div>
-            <div class="dropdown">
+        <div class="dropdown">
             <a href="contact.html">Contact Us</a>
-        </div> <div class="dropdown">
-            <a href="covid.html">COVID-19</a>
-            </div>
         </div>
-    
+        <div class="dropdown">
+            <a href="covid.html">COVID-19</a>
+        </div>
+
+    </div>
