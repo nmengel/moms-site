@@ -106,7 +106,7 @@ ol li {
 .sidebyside{
   display: flex;
   flex-direction: row;
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-bottom: 2rem; 
 }
 
@@ -116,6 +116,7 @@ ol li {
   flex-direction: column; 
   align-items: left; 
   justify-content: center;
+  max-height: 10%; 
 }
 
 .logo {
