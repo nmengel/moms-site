@@ -9,7 +9,7 @@ body {
   overflow-x: hidden; 
 }
 
-p{
+p {
   font-size: 1.25rem;
 }
 
@@ -475,10 +475,6 @@ ul li{
         font-size: .75rem; 
       }
 
-      .innernav{
-        margin-left: 5%; 
-      }
-
       .sidebyside{
         padding-top: 2%;
         padding-bottom: 1.5%; 
@@ -486,6 +482,10 @@ ul li{
     }
 
     @media screen and (max-width: 500px) {
+
+      .innernav {
+        margin-left: 5%; 
+      }
 
         .title {
           font-size: 1.1rem;
