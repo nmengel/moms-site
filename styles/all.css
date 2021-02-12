@@ -112,7 +112,7 @@ ol li {
 
 .stack {
   display: flex; 
-  background-color: pink;  
+  background-color: lavender;  
   flex-direction: column; 
   align-items: left; 
   /* justify-content: center; */
