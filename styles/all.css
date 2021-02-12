@@ -112,7 +112,7 @@ ol li {
 
 .stack {
   display: flex; 
-  background-color:red; 
+  background-color:greenyellow; 
   flex-direction: column; 
   align-items: left; 
   /* justify-content: center; */
@@ -121,8 +121,6 @@ ol li {
 .logo {
   display: block; 
   max-width: 20%;
-  /* height: auto;  */
-  margin: auto; 
   margin-left: 3%; 
   margin-right: 2%;
   padding: 0.1rem; 
@@ -462,6 +460,11 @@ ul li{
 
       .innernav{
         margin-left: 5%; 
+      }
+
+      .sidebyside{
+        padding-top: 1%;
+        padding-bottom: 1%; 
       }
     }
 
