@@ -112,20 +112,27 @@ ol li {
 
 .stack {
   display: flex; 
-  background-color: white;  
+  background-color: red;  
   flex-direction: column; 
   align-items: left; 
   /* justify-content: center; */
 }
 
-.logo {
-  display: block; 
-  max-width: 20%;
-  height: auto; 
+.stackleft{
+  display: flex;   
+  flex-direction: column; 
+  align-items: left; 
+  width: 20%; 
   margin-left: 3%; 
   margin-right: 2%;
   margin-top: 0.5%; 
   margin-bottom: 0.5%; 
+}
+
+.logo {
+  display: block; 
+  width: auto; 
+  height: auto; 
   padding: 0.25rem; 
   border: 0.25rem solid black; 
   border-radius: 0px; 
