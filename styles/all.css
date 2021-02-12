@@ -221,7 +221,7 @@ li:hover {
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
   float: left;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -344,6 +344,7 @@ button {
   border: 0.313rem solid #c7e6ed; 
   border-radius: 8%; 
   font-size: large; 
+  color: black; 
   font-family: sans-serif; 
 }
   
