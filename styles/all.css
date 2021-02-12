@@ -221,7 +221,7 @@ li:hover {
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
   float: left;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Style the dropdown button to fit inside the topnav */
@@ -422,7 +422,7 @@ ul li{
       font-size: 2rem;  
     }
 
-    .topnav a{
+    .topnav a {
       font-size: 1rem;
       padding: 0.5rem; 
     }
@@ -438,7 +438,6 @@ ul li{
       .logo {
         max-width: 25%; 
       }
-
         
       .title {
         font-size: 1.45rem;
@@ -460,7 +459,7 @@ ul li{
         font-size: 1.25rem; 
       }
 
-      .row2{
+      .row2 {
         flex-direction: column;
         align-items: center;
         padding: 0px; 
