@@ -112,7 +112,7 @@ ol li {
 
 .stack {
   display: flex; 
-  background-color:#c7e6ed; 
+  background-color:red; 
   flex-direction: column; 
   align-items: left; 
   /* justify-content: center; */
@@ -462,11 +462,6 @@ ul li{
 
       .innernav{
         margin-left: 5%; 
-      }
-
-      .sidebyside {
-        padding-top: 1rem;
-        padding-bottom: 1.5rem;
       }
     }
 
