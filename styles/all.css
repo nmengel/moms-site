@@ -478,6 +478,10 @@ ul li{
         padding-top: 2%;
         padding-bottom: 1.5%; 
       }
+
+      .innernav {
+        margin-left: 28%; 
+      }
     }
 
     @media screen and (max-width: 500px) {
